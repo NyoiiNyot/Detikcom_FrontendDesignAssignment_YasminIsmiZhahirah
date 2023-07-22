@@ -1,0 +1,97 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+body
+{
+    font-family: sans-serif;
+    
+}
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.fonty{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.navbar{
+    background-color: #007CBD;
+    padding: 0 !important;
+}
+
+.navbar-brand img{
+    height: 35px;
+    padding-left: 20px;
+}
+
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+
+.navbar-nav li a
+{
+    color: #fff!important;
+    font-weight: 600;
+}
+
+.btn-primary{
+    background-color: #fff!important;
+    color: #007CBD!important;
+}
+.btn-secondary{
+    background-color: #3EB7DD!important;
+    border: none!important;
+}
+
+
+.fa-bars
+{
+    color: #fff;
+    font-size: 30px!important;
+}
+
+/*-- Banner --*/
+.wahoo
+{
+    padding-top: 20%;
+}
+.banner::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 140%;
+    background-size: 100%;
+    background-image: url(image/Background.png);
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.banner
+{
+    min-height: 100vh;
+}
+.banner h4{
+    font-size: 24px;
+}
+.tengahnya{
+    font-size: 48px;
+    font-weight: bold;
+}
+.bawahnya{
+    font-size: 14px;
+    font-weight: 100;
+}
+
+/* about */
+#about{
+    padding: 20%;
+}
